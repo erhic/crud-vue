@@ -47,10 +47,27 @@ export default {
               <th>Action</th>
             </tr>
           </thead>
-          <tbody>
-            <tr>
+          <tbody v-if="this.students.length > 0">
+            <tr v-for="(student, index) in this.students" :key="index">
+              <td>{{ student.id }}</td>
+              <td>{{ student.name }}</td>
+              <td>{{ student.course }}</td>
+              <td>{{ student.email }}</td>
+              <td>{{ student.phone }}</td>
+              <td>{{ student.created }}</td>
+              <td>
+                <RouterLink to="/" class="btn btn-success px-4 mx-3">
+                  Edit
+                </RouterLink>
+                <button type="button" class="btn btn-danger"> Delete </button>
+              </td>
 
             </tr>
+          </tbody>
+          <tbody v-else>
+            <td colspan="8">
+              <p class="text-center m-5 p-5">Loading.....</p>
+            </td>
           </tbody>
         </table>
       </div>
