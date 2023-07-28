@@ -1,3 +1,30 @@
+<script>
+import axios from "axios"
+export default {
+  name: 'students',
+  data() {
+    return {
+      students: []
+    }
+  },
+  mounted() {
+    // console.log('i am ............')
+    this.getStudents();
+  },
+  methods: {
+    getStudents() {
+      axios.get('http://localhost:3000/students').then(res => {
+        this.students = res.data
+        console.log(res)
+      });
+    }
+  }
+}
+
+
+</script>
+
+
 <template>
   <div class="container py-4">
     <div class="card">
@@ -32,20 +59,6 @@
 </template>
 
 
-<script>
-export default {
-  name: 'students',
-  data() {
-    return {
-      students: []
-    }
-  },
-  mounted() {
-    console.log('i am')
-  }
-}
 
-
-</script>
 
 <style></style>

@@ -1,0 +1,54 @@
+{
+  "status":[
+    {
+    "status":200
+    }
+  ],
+  "students":[
+    {
+      "id":1,
+      "name":"Jane W",
+      "course":"bbit",
+      "email":"j@edu.com",
+      "phone":"079898767",
+      "created":"2023-05-17",
+      "updated":"2023-08-17"
+    },
+    {
+      "id":2,
+      "name":"Ann W",
+      "course":"it",
+      "email":"a@edu.com",
+      "phone":"034898767",
+      "created":"2022-05-17",
+      "updated":"2023-08-17"
+    },
+    {
+      "id":3,
+      "name":"Nancy",
+      "course":"bcom",
+      "email":"n@edu.com",
+      "phone":"019998767",
+      "created":"2021-01-17",
+      "updated":"2023-08-17"
+    },
+    {
+      "id":4,
+      "name":"Wilson",
+      "course":"bbit",
+      "email":"w@edu.com",
+      "phone":"079898767",
+      "created":"2020-05-17",
+      "updated":"2023-08-17"
+    },
+    {
+      "id":5,
+      "name":"Bob",
+      "course":"bbit",
+      "email":"b@edu.com",
+      "phone":"079898999",
+      "created":"2023-05-17",
+      "updated":"2023-08-17"
+    }
+  ]
+}
