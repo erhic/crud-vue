@@ -17,6 +17,15 @@ export default {
         this.students = res.data
         console.log(res)
       });
+    },
+    deleteStudent(studentId) {
+
+      if (confirm(`Are you sure you want to delete this data`)) {
+        console.log(studentId);
+        axios.delete(`http://localhost:3000/students/${studentId}`).then(res => {
+          alert(res.data)
+        })
+      }
     }
   }
 }
@@ -59,7 +68,7 @@ export default {
                 <RouterLink :to="{ path: '/students/' + student.id + '/edit' }" class="btn btn-success px-4 mx-3">
                   Edit
                 </RouterLink>
-                <button type="button" class="btn btn-danger"> Delete </button>
+                <button type="button" @click="deleteStudent(student.id)" class="btn btn-danger"> Delete </button>
               </td>
 
             </tr>
