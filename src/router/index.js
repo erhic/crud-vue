@@ -1,8 +1,8 @@
 import { createRouter, createWebHistory } from "vue-router";
 import HomeView from "../views/HomeView.vue";
-import StudentView from "../views/Students/View.vue";
-import StudentCreate from "../views/Students/Create.vue";
-import StudentEdit from "../views/Students/Edit.vue";
+import CustomerView from "../views/Customers/View.vue";
+import CustomerCreate from "../views/Customers/Create.vue";
+import CustomerEdit from "../views/Customers/Edit.vue";
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -21,19 +21,19 @@ const router = createRouter({
       component: () => import("../views/AboutView.vue"),
     },
     {
-      path: "/students",
-      name: "students",
-      component: StudentView,
+      path: "/customers",
+      name: "customers",
+      component: CustomerView,
     },
     {
-      path: "/students/create",
-      name: "studentsCreate",
-      component: StudentCreate,
+      path: "/customers/create",
+      name: "customerCreate",
+      component: CustomerCreate,
     },
     {
-      path: "/students/:id/edit",
-      name: "studentEdit",
-      component: StudentEdit,
+      path: "/customers/:id/edit",
+      name: "customerEdit",
+      component: CustomerEdit,
     },
   ],
 });

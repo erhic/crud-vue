@@ -1,7 +1,23 @@
 <template>
   <div class="about">
-    <h1>This is an about page</h1>
+    <p v-for="stud in customers" :key="stud.id">{{ customers.email }}</p>
+    <customers />
   </div>
 </template>
+<script>
+import customers from '@/views/Customers/View.vue'
+export default {
+
+  name: 'AboutView',
+  components: {
+    customers
+  },
+  props: {
+    name: String,
+    data: Object,
+    getCustomers: Function
+  }
+}
+</script>
 
 <style></style>
