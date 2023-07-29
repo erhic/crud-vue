@@ -23,7 +23,8 @@ export default {
       if (confirm(`Are you sure you want to delete this data`)) {
         console.log(studentId);
         axios.delete(`http://localhost:3000/students/${studentId}`).then(res => {
-          alert(res.data)
+          this.getStudents();
+          alert('Student deleted successfully')
         })
       }
     }
