@@ -1,54 +1,271 @@
 {
-  "status":[
+  "status": [
     {
-    "status":200
+      "status": 200
     }
   ],
-  "students":[
+  "students": [
     {
-      "id":1,
-      "name":"Jane W",
-      "course":"bbit",
-      "email":"j@edu.com",
-      "phone":"079898767",
-      "created":"2023-05-17",
-      "updated":"2023-08-17"
+      "id": 1,
+      "name": "Jane W",
+      "course": "bbit",
+      "email": "j@edu.com",
+      "phone": "079898767",
+      "created": "2023-05-17",
+      "updated": "2023-08-17"
     },
     {
-      "id":2,
-      "name":"Ann W",
-      "course":"it",
-      "email":"a@edu.com",
-      "phone":"034898767",
-      "created":"2022-05-17",
-      "updated":"2023-08-17"
+      "id": 2,
+      "name": "Ann W",
+      "course": "it",
+      "email": "a@edu.com",
+      "phone": "034898767",
+      "created": "2022-05-17",
+      "updated": "2023-08-17"
     },
     {
-      "id":3,
-      "name":"Nancy",
-      "course":"bcom",
-      "email":"n@edu.com",
-      "phone":"019998767",
-      "created":"2021-01-17",
-      "updated":"2023-08-17"
+      "id": 3,
+      "name": "Nancy",
+      "course": "bcom",
+      "email": "n@edu.com",
+      "phone": "019998767",
+      "created": "2021-01-17",
+      "updated": "2023-08-17"
     },
     {
-      "id":4,
-      "name":"Wilson",
-      "course":"bbit",
-      "email":"w@edu.com",
-      "phone":"079898767",
-      "created":"2020-05-17",
-      "updated":"2023-08-17"
+      "id": 4,
+      "name": "Wilson",
+      "course": "bbit",
+      "email": "w@edu.com",
+      "phone": "079898767",
+      "created": "2020-05-17",
+      "updated": "2023-08-17"
     },
     {
-      "id":5,
-      "name":"Bob",
-      "course":"bbit",
-      "email":"b@edu.com",
-      "phone":"079898999",
-      "created":"2023-05-17",
-      "updated":"2023-08-17"
+      "id": 5,
+      "name": "Bob",
+      "course": "bbit",
+      "email": "b@edu.com",
+      "phone": "079898999",
+      "created": "2023-05-17",
+      "updated": "2023-08-17"
+    },
+    {
+      "name": "",
+      "course": "",
+      "email": "",
+      "phone": "",
+      "id": 6
+    },
+    {
+      "name": "",
+      "course": "",
+      "email": "",
+      "phone": "",
+      "id": 7
+    },
+    {
+      "name": "",
+      "course": "",
+      "email": "",
+      "phone": "",
+      "id": 8
+    },
+    {
+      "name": "",
+      "course": "",
+      "email": "",
+      "phone": "",
+      "id": 9
+    },
+    {
+      "name": "",
+      "course": "",
+      "email": "",
+      "phone": "",
+      "id": 10
+    },
+    {
+      "name": "",
+      "course": "",
+      "email": "",
+      "phone": "",
+      "id": 11
+    },
+    {
+      "name": "",
+      "course": "",
+      "email": "",
+      "phone": "",
+      "id": 12
+    },
+    {
+      "name": "",
+      "course": "",
+      "email": "",
+      "phone": "",
+      "id": 13
+    },
+    {
+      "name": "",
+      "course": "",
+      "email": "",
+      "phone": "",
+      "id": 14
+    },
+    {
+      "name": "",
+      "course": "",
+      "email": "",
+      "phone": "",
+      "id": 15
+    },
+    {
+      "name": "",
+      "course": "",
+      "email": "",
+      "phone": "",
+      "id": 16
+    },
+    {
+      "name": "",
+      "course": "",
+      "email": "",
+      "phone": "",
+      "id": 17
+    },
+    {
+      "name": "",
+      "course": "",
+      "email": "",
+      "phone": "",
+      "id": 18
+    },
+    {
+      "name": "",
+      "course": "",
+      "email": "",
+      "phone": "",
+      "id": 19
+    },
+    {
+      "name": "",
+      "course": "",
+      "email": "",
+      "phone": "",
+      "id": 20
+    },
+    {
+      "name": "",
+      "course": "",
+      "email": "",
+      "phone": "",
+      "id": 21
+    },
+    {
+      "name": "",
+      "course": "",
+      "email": "",
+      "phone": "",
+      "id": 22
+    },
+    {
+      "name": "dss",
+      "course": "",
+      "email": "",
+      "phone": "",
+      "id": 23
+    },
+    {
+      "name": "",
+      "course": "",
+      "email": "",
+      "phone": "",
+      "id": 24
+    },
+    {
+      "name": "",
+      "course": "",
+      "email": "",
+      "phone": "",
+      "id": 25
+    },
+    {
+      "name": "",
+      "course": "",
+      "email": "",
+      "phone": "",
+      "id": 26
+    },
+    {
+      "name": "",
+      "course": "",
+      "email": "",
+      "phone": "",
+      "id": 27
+    },
+    {
+      "name": "",
+      "course": "",
+      "email": "",
+      "phone": "",
+      "id": 28
+    },
+    {
+      "name": "",
+      "course": "",
+      "email": "",
+      "phone": "",
+      "id": 29
+    },
+    {
+      "name": "",
+      "course": "",
+      "email": "",
+      "phone": "",
+      "id": 30
+    },
+    {
+      "name": "",
+      "course": "",
+      "email": "",
+      "phone": "",
+      "id": 31
+    },
+    {
+      "name": "",
+      "course": "",
+      "email": "",
+      "phone": "",
+      "id": 32
+    },
+    {
+      "name": "",
+      "course": "",
+      "email": "",
+      "phone": "",
+      "id": 33
+    },
+    {
+      "name": "",
+      "course": "",
+      "email": "",
+      "phone": "",
+      "id": 34
+    },
+    {
+      "name": "",
+      "course": "",
+      "email": "",
+      "phone": "",
+      "id": 35
+    },
+    {
+      "name": "John",
+      "course": "DIT",
+      "email": "J@gmail.com",
+      "phone": "0712345689",
+      "id": 36
     }
   ]
 }

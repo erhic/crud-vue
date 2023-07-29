@@ -31,7 +31,7 @@ export default {
       <div class="card-header">
         <h4>
           Students
-          <RouterLink to="/student/create" class="btn btn-primary float-end">Add Students</RouterLink>
+          <RouterLink to="/students/create" class="btn btn-primary float-end">Add Students</RouterLink>
         </h4>
       </div>
       <div class="card-body">
@@ -56,7 +56,7 @@ export default {
               <td>{{ student.phone }}</td>
               <td>{{ student.created }}</td>
               <td>
-                <RouterLink to="/" class="btn btn-success px-4 mx-3">
+                <RouterLink :to="{ path: '/students/' + student.id + '/edit' }" class="btn btn-success px-4 mx-3">
                   Edit
                 </RouterLink>
                 <button type="button" class="btn btn-danger"> Delete </button>
